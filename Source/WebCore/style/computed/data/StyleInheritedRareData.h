@@ -79,6 +79,10 @@
 #include <WebCore/StyleColorScheme.h>
 #endif
 
+#if ENABLE(SPATIAL_PORTAL)
+#include <WebCore/StyleEnvironmentMap.h>
+#endif
+
 namespace WebCore {
 namespace Style {
 
@@ -149,6 +153,10 @@ public:
 
     WebkitBorderSpacing borderHorizontalSpacing;
     WebkitBorderSpacing borderVerticalSpacing;
+
+#if ENABLE(SPATIAL_PORTAL)
+    EnvironmentMap environmentMap;
+#endif
 
     TextIndent textIndent;
 

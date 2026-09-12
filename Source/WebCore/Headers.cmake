@@ -3537,6 +3537,7 @@ set(WebCore_PRIVATE_FRAMEWORK_HEADERS
     style/values/sizing/StylePreferredSize.h
     style/values/sizing/StyleSizing.h
 
+    style/values/spatial/StyleEnvironmentMap.h
     style/values/speech/StyleSpeakAs.h
 
     style/values/svg/StyleSVGBaselineShift.h
